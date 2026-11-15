@@ -1,0 +1,45 @@
+# Archivos y directorios a ignorar al construir la imagen Docker
+
+# Directorios de compilación de Maven
+target/
+!target/backend-practica.jar
+
+# Directorios de IDEs
+.idea/
+.vscode/
+.eclipse/
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de configuración de Git
+.git/
+.gitignore
+.gitattributes
+
+# Archivos de documentación
+README.md
+*.md
+
+# Archivos de Kubernetes
+k8s/
+*.yaml
+*.yml
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Maven locales
+.mvn/
+mvnw
+mvnw.cmd

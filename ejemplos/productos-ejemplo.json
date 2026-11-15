@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Laptop HP Pavilion",
+    "descripcion": "Laptop gaming de alto rendimiento con procesador Intel i7, 16GB RAM, 512GB SSD",
+    "precio": 1500.00,
+    "disponible": true
+  },
+  {
+    "nombre": "Mouse Logitech MX Master 3",
+    "descripcion": "Mouse inalámbrico ergonómico de precisión para profesionales",
+    "precio": 99.99,
+    "disponible": true
+  },
+  {
+    "nombre": "Teclado Mecánico Keychron K8",
+    "descripcion": "Teclado mecánico compacto con switches Gateron Brown",
+    "precio": 85.00,
+    "disponible": false
+  },
+  {
+    "nombre": "Monitor Dell UltraSharp 27",
+    "descripcion": "Monitor 4K UHD de 27 pulgadas con panel IPS",
+    "precio": 450.00,
+    "disponible": true
+  },
+  {
+    "nombre": "Auriculares Sony WH-1000XM5",
+    "descripcion": "Auriculares inalámbricos con cancelación de ruido activa",
+    "precio": 399.99,
+    "disponible": true
+  },
+  {
+    "nombre": "Webcam Logitech Brio 4K",
+    "descripcion": "Cámara web profesional con resolución 4K y HDR",
+    "precio": 199.99,
+    "disponible": true
+  },
+  {
+    "nombre": "Disco Duro Externo Samsung T7",
+    "descripcion": "SSD portátil de 1TB con conexión USB-C",
+    "precio": 149.99,
+    "disponible": false
+  },
+  {
+    "nombre": "Silla Herman Miller Aeron",
+    "descripcion": "Silla ergonómica de oficina de alta gama",
+    "precio": 1200.00,
+    "disponible": false
+  },
+  {
+    "nombre": "Hub USB-C Anker 7 en 1",
+    "descripcion": "Hub multipuerto con HDMI, USB 3.0 y lector de tarjetas",
+    "precio": 49.99,
+    "disponible": true
+  },
+  {
+    "nombre": "Lámpara de escritorio BenQ ScreenBar",
+    "descripcion": "Lámpara LED para monitor con control de temperatura de color",
+    "precio": 109.00,
+    "disponible": true
+  }
+]

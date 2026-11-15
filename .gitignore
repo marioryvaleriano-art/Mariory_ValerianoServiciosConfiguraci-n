@@ -1,0 +1,47 @@
+# Archivos y directorios a ignorar en Git
+
+# Directorios de compilación de Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDEs
+.idea/
+.vscode/
+.eclipse/
+.settings/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+
+# Logs
+*.log
+logs/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# Variables de entorno locales
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración sensibles
+application-local.properties
+application-dev.properties
+
+# Node modules (si se usa frontend)
+node_modules/
+
+# Archivos de backup
+*.bak
+*.backup
