@@ -16,10 +16,6 @@ Este proyecto implementa una arquitectura de microservicios utilizando **Spring 
 - ✅ Demostrar inyección de variables de entorno
 - ✅ Implementar una API REST funcional con MongoDB
 
-## 🏗️ Arquitectura
-┌─────────────────────────────────────────────────┐ │ MINIKUBE CLUSTER │ │ ┌──────────────────────────────────────────┐ │ │ │ Namespace: practica-s08 │ │ │ │ │ │ │ │ ┌────────────────┐ ┌─────────────────┐ │ │ │ │ │ ConfigMap │ │ Secret │ │ │ │ │ │ (app-config) │ │ (db-secret) │ │ │ │ │ └────────┬───────┘ └────────┬────────┘ │ │ │ │ │ │ │ │ │ │ ├───────────────────┤ │ │ │ │ ▼ ▼ │ │ │ │ ┌─────────────────────────────────────┐ │ │ │ │ │ Backend Deployment │ │ │ │ │ │ (Spring Boot - 2 replicas) │ │ │ │ │ │ - Port: 8080 │ │ │ │ │ └──────────────┬──────────────────────┘ │ │ │ │ │ │ │ │ │ ▼ │ │ │ │ ┌─────────────────────────────────────┐ │ │ │ │ │ Backend Service (NodePort) │ │ │ │ │ │ - Port: 8080 │ │ │ │ │ │ - NodePort: 30080 │ │ │ │ │ └──────────────┬──────────────────────┘ │ │ │ │ │ │ │ │ │ │ Acceso externo │ │ │ │ │ mediante NodePort │ │ │ │ │ │ │ │ │ ┌──────────────┴──────────────────────┐ │ │ │ │ │ MongoDB Deployment │ │ │ │ │ │ - Port: 27017 │ │ │ │ │ │ - PersistentVolumeClaim: 1Gi │ │ │ │ │ └──────────────┬──────────────────────┘ │ │ │ │ │ │ │ │ │ ▼ │ │ │ │ ┌─────────────────────────────────────┐ │ │ │ │ │ MongoDB Service (ClusterIP) │ │ │ │ │ │ - Port: 27017 (interno) │ │ │ │ │ └─────────────────────────────────────┘ │ │ │ └────────────────────────────────────────────┘ │ └───────────────────────────────────────────────────┘
-
-
 
 ## 🛠️ Tecnologías Utilizadas
 
